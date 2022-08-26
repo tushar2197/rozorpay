@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server for razorpay response",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test",
+    "start": "node app.js"
+  },
+  "author": "Shivam Arora",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "razorpay": "^1.6.1"
+  }
+}
